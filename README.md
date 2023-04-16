@@ -6,7 +6,7 @@
 
 2. Currently, Cypress supports Node.js version 14.x/16.x/18.x and above. Please make sure to have one of the mentioned versions. In order to verify this, you can open the terminal and type `node --v`.
 
-3. Once Node.js is installed, we are ready to start installing Cypress in our project path. Using an IDE or text editor, from the terminal, type `cd /your/project/path` (example: `cd Documents/Cypress_Project)`. Here run the following command:`npm install cypress --save-dev`.
+3. Once Node.js is installed, we are ready to start installing Cypress in our project path. Using an IDE or text editor, from the terminal, type `cd /your/project/path` (example: `cd Documents/Cypress_Project)`. Here run the following command:`npm install cypress --save-dev`. Once done we will install the npm packages for the node_modules with the command ```npm_install```.
 
    **Note:** Ideally, we are using an IDE or a rich text editor like VS Code.
 
@@ -24,19 +24,19 @@ Navigate to the root directory of your Cypress project and follow the steps belo
 
 To run all tests for the Login page with a desktop viewport in Chrome:
 
-```npx cypress run --browser chrome --headed --config viewportWidth=1280,viewportHeight=800 --spec "cypress/e2e/Login page/Login.cy.js"```
+```npx cypress run --browser chrome --headed --config viewportWidth=1280,viewportHeight=800 --spec "cypress/e2e/Loginpage/Login.cy.js"```
 
 To run all tests for the Login page with a mobile simulator viewport in Chrome:
 
-```npx cypress run --browser chrome --headed --config viewportWidth=375,viewportHeight=667 --spec "cypress/e2e/Login page/Login.cy.js"```
+```npx cypress run --browser chrome --headed --config viewportWidth=375,viewportHeight=667 --spec "cypress/e2e/Loginpage/Login.cy.js"```
 
 To run all tests for the Settings page with a desktop viewport in Chrome:
 
-```npx cypress run --browser chrome --headed --config viewportWidth=1280,viewportHeight=800 --spec "cypress/e2e/Settings page/Settings.cy.js"```
+```npx cypress run --browser chrome --headed --config viewportWidth=1280,viewportHeight=800 --spec "cypress/e2e/Settingspage/Settings.cy.js"```
 
 To run all tests for the Settings page with a mobile simulator viewport in Chrome:
 
-```npx cypress run --browser chrome --headed --config viewportWidth=375,viewportHeight=667 --spec "cypress/e2e/Settings page/Settings.cy.js"```
+```npx cypress run --browser chrome --headed --config viewportWidth=375,viewportHeight=667 --spec "cypress/e2e/Settingspage/Settings.cy.js"```
 
 Addtional steps:
 
