@@ -32,7 +32,7 @@ Cypress.Commands.add('loginNewUser', () => {
           win.localStorage.setItem('jwtToken', token);
         }
       });
-      cy.wrap(user);
+      cy.wrap(user); 
     });
   });
 });
